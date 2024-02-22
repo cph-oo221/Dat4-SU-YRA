@@ -4,6 +4,15 @@
 - Lasse - Github: **[kotteletfisk](https://github.com/kotteletfisk)**
 - Oskar - Github: **[cph-oo221](https://github.com/cph-oo221)**
 
+
+## Indhold
+
+- [Beskrivelse af projekt](#beskrivelse-af-projekt)
+- [Class Diagram](./class-diagram/)
+- [Domain Model](./domain-model/)
+- [Use Case Diagram(s)](./use-cases/)
+- [Prototype](#)
+
 # Beskrivelse af projekt
 
 Vores idé/projekt er et alternativ til eksisterende læse- og skriveværktøjer såsom CD-ORD, IntoWords, AppWriter og lignende.
