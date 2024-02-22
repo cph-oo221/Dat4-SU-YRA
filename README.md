@@ -12,6 +12,8 @@
 - [Domain Model](./domain-model/)
 - [Use Case Diagram(s)](./use-cases/)
 - [Prototype](#)
+    - [video af prototype](#)
+    - [kodebase for prototypen](#)
 
 # Beskrivelse af projekt
 
