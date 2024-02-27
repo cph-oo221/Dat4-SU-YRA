@@ -9,6 +9,7 @@ Local pc environment, with different users on different types of OS
 Unit/component testing, integration testing with OS, acceptance testing by product owner.
 
 # Release Control
+- With every new release comes a new link to install the new versionh
 - Git flow for version control, with finished releases of the project on main branch.
 - CI with Github actions.
 
