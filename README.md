@@ -1,10 +1,10 @@
 # Dat4-SU-YRA
 
 ## Gruppe
+
 - Sebastian - Github: **[Sebbedeb](https://github.com/Sebbedeb)**
 - Lasse - Github: **[kotteletfisk](https://github.com/kotteletfisk)**
 - Oskar - Github: **[cph-oo221](https://github.com/cph-oo221)**
-
 
 ## Indhold
 
@@ -12,11 +12,10 @@
 - [Class Diagram](./class-diagram/)
 - [Domain Model](./domain-model/)
 - [Use Case Diagram(s)](./use-cases/)
-- [Prototype](#)
-    - [video af prototype](#)
-    - [kodebase for prototypen](#)
+- [Prototype](./prototype/)
+  - [Video af prototype](https://youtu.be/)
+  - [Kodebase for prototypen](./prototype/)
 - [Test strategi](./test_strategy.md)
-
 
 # Beskrivelse af projekt
 
