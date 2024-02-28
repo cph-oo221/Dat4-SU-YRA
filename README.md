@@ -20,7 +20,7 @@
 
 # Beskrivelse af projekt
 
-Vores idé/projekt er et alternativ til eksisterende læse- og skriveværktøjer såsom CD-ORD, IntoWords, AppWriter og lignende. test
+Vores idé/projekt er et alternativ til eksisterende læse- og skriveværktøjer såsom CD-ORD, IntoWords, AppWriter og lignende.
 
 Formålet med applikationen er at hjælpe mennesker med læse- og skrivevanskeligheder, så de kan få støtte til at læse og skrive.
 
