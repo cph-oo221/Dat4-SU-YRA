@@ -6,15 +6,17 @@
   "main": "main.js",
   "scripts": {
     "start": "concurrently \"npm run dev\" \"electron .\"",
+    "start-linux": "concurrently \"npm run dev\" \"wait-on http://localhost:5173 && electron . --enable-speech-dispatcher\"",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "electron": "^29.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "electron": "^29.0.1"
+    "wait-on": "^7.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
