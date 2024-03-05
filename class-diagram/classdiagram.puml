@@ -1,0 +1,56 @@
+@startuml
+
+
+class TextToSpeech {
+  -language: String
+  -speed: int
+  +convertTextToSpeech(text: String): String
+  +setLanguage(language: String): void
+  +setSpeed(speed: int): void
+}
+
+class WordSuggestion {
+  -currentText: String
+  -language: String
+  +getSuggestions(text: String): List<String>
+  +addWord(word: String): void
+  +removeWord(word: String): void
+}
+
+class Dictionary {
+  -language: String
+  +lookUpWord(word: String): String
+  +addDefinition(word: String, definition: String): void
+  +removeDefinition(word: String): void
+}
+
+class OCR {
+  -documentPath: String
+  +scanDocument(path: String): Image
+  +convertToText(image: Image): String
+}
+
+class UserSettings {
+  -preferredLanguage: String
+  -readingSpeed: int
+  +updateSetting(setting: String, value: Object): void
+  +loadSettings(): Settings
+  +saveSettings(settings: Settings): void
+}
+
+Class App {
+  -textToSpeech: TextToSpeech
+  -wordSuggestion: WordSuggestion
+  -dictionary: Dictionary
+  -ocr: OCR
+  -userSettings: UserSettings
+}
+
+
+App *-- TextToSpeech
+App *-- WordSuggestion
+App *-- Dictionary
+App *-- OCR
+App *-- UserSettings
+
+@enduml
