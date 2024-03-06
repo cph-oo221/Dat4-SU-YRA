@@ -1,3 +1,8 @@
+
+// npm i --save-dev jest@24.0.0
+// npm i --save-dev jest-electron
+
+
 function sum(a, b) {
   return a + b;
 }
