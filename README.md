@@ -13,7 +13,6 @@
 - [Domain Model](./domain-model/)
 - [Use Case Diagram(s)](./use-cases/)
 - [Prototype](./prototype/)
-  - [Video af prototype](https://youtu.be/)
   - [Kodebase for prototypen](./prototype/)
 - [Test strategi](./test_strategy.md)
 

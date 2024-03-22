@@ -1,0 +1,34 @@
+@startuml
+!theme plain
+
+class App {
+  
+}
+
+class TextToSpeech {
+  
+}
+
+class WordSuggestion {
+  
+}
+
+class Dictionary {
+  
+}
+
+class OCR {
+  
+}
+
+class UserSettings {
+  
+}
+
+App *-- TextToSpeech 
+App *-- WordSuggestion 
+App *-- Dictionary 
+App *-- OCR 
+App *-- UserSettings
+
+@enduml
